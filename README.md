@@ -22,25 +22,3 @@ The dataset file (`dataset.csv`) contains the following columns:
 > **Note on Data Sources:**  
 > - **Spam:** Real unsolicited SMS promotional texts, phishing attempts, fraud lures, and unwanted broadcasts.  
 > - **Ham (Normal):** Real-world benign messages sourced from personal communication (SMS and WhatsApp) to reflect conversational Indonesian sentence structures.
-
-## Anonymization & Ethical Considerations
-
-To protect user privacy, all messages have undergone anonymization:
-- Phone numbers replaced with `[PHONE]`
-- URLs and suspicious links masked with `[URL]`
-- Personal names, account numbers, and OTP codes scrubbed or generalized
-- No metadata (sender/receiver IDs, timestamps, or device identifiers) is retained.
-
-## Citation
-
-If you use this dataset in your research or paper, please cite it as follows:
-
-```bibtex
-@misc{manual_sms_spam_dataset_2026,
-  author       = {Siemen Gunawan Iksan},
-  title        = {Manual SMS Spam Detection Dataset},
-  year         = {2026},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  howpublished = {\url{[https://github.com/spacegoalex/ManualSMSSpamDetectionDataset](https://github.com/spacegoalex/ManualSMSSpamDetectionDataset)}}
-}
